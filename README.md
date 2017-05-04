@@ -8,5 +8,4 @@ $ Server at http://localhost:1234.
 
 go to
 - http://localhost:1234
-- http://localhost:1234/magazin/{vogue|natge|newyorker}
-]
+- http://localhost:1234/magazin/[vogue|natge|newyorker]
