@@ -2,3 +2,5 @@ notes
 hello.o
 /.GOPATH
 /bin
+*.aci
+gohello03
