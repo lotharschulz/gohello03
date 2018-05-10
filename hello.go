@@ -37,7 +37,11 @@ func books(w http.ResponseWriter, r *http.Request) {
 	magazine := r.URL.Path[len("/magazine/"):]
 	pages := magazinPages[magazine]
 
-	fmt.Fprintf(w, "%s has %d pages.\n", magazine, pages)
+	if len(magazine) > 0 {
+		fmt.Fprintf(w, "%s has %d pages.\n", magazine, pages)
+	}else {
+		fmt.Fprintf(w, "No magazine provided.\n")
+	}
 }
 
 func main() {
