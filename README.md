@@ -1,6 +1,6 @@
 simple golang hello world server project using [hellogopher](https://github.com/cloudflare/hellogopher) make:
 
-build and locally:
+build and run locally:
 ```
 $ make
 $ ./bin/gohello03
